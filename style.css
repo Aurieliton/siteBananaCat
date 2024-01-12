@@ -1,0 +1,95 @@
+body{
+    background-color: #1b1833;
+    font-family: 'Recursive', sans-serif;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    padding-right: 15px;
+}
+
+
+
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 60px;
+
+}
+
+.cabLogo{
+    max-width: 100px;
+
+
+}
+
+.cabHome{
+
+}
+
+.cabCateg{
+
+}
+
+.cabSobre{
+
+}
+
+.cabContato{
+
+}
+
+.divImg{
+    
+    display: flex;
+    background-size: cover;
+}
+
+.banner{
+    background-image:url("https://i.ytimg.com/vi/6XiBaYeYU_4/sddefault.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bannerTxt{
+    background-color: white;
+    padding: 25px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.bannerTitulo{
+    font-family: "Pacifico" ;
+    font-size: 24px;
+    color: blue;
+}
+
+.banner_detalhe{
+    font-family: "Rubik Bubbles" ;
+    font-size: 36px;
+    color: blueviolet
+}
+
+.banner_botao{
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    size: 30px;
+    font-family: "pacifico";
+    color: white;
+    background-color: blueviolet;
+}
